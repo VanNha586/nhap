@@ -1,0 +1,2 @@
+# Only required for static Dalvik disassembly/validation, not for the binary patcher.
+androguard==4.1.3

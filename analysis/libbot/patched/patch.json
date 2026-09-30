@@ -1,0 +1,67 @@
+{
+  "source_name": "libbot.js.so",
+  "output_name": "libbot.js.so",
+  "source_sha256": "117bc87d9d7a92fcb4ce45f969fd14933defea0120fe28f172598896c848b064",
+  "output_sha256": "319d303c17eba1874e9d863e2c54b18379d4ad2c79f13cfc0283ab53153f074a",
+  "source_bytes": 356749,
+  "output_bytes": 356749,
+  "changed_bytes": 17,
+  "entry_byte_lengths": {
+    "/avatar.js": 225474,
+    "/avatar.js.map": 131221
+  },
+  "patches": [
+    {
+      "variable": "_0x29a5e9",
+      "role_vi": "Cờ có hành vi kiểu trial (vai trò suy luận từ mã)",
+      "offset_decimal": 151266,
+      "offset_hex": "0x24EE2",
+      "old_hex": "21 5B 5D 20 20",
+      "new_hex": "66 61 6C 73 65",
+      "old_ascii": "![]  ",
+      "new_ascii": "false",
+      "boolean_before": false,
+      "boolean_after": false
+    },
+    {
+      "variable": "_0x335d3b",
+      "role_vi": "Tự chuyển khu",
+      "offset_decimal": 151358,
+      "offset_hex": "0x24F3E",
+      "old_hex": "21 21 5B 5D",
+      "new_hex": "74 72 75 65",
+      "old_ascii": "!![]",
+      "new_ascii": "true",
+      "boolean_before": true,
+      "boolean_after": true
+    },
+    {
+      "variable": "_0x535564",
+      "role_vi": "Câu nhanh",
+      "offset_decimal": 151404,
+      "offset_hex": "0x24F6C",
+      "old_hex": "21 21 5B 5D",
+      "new_hex": "74 72 75 65",
+      "old_ascii": "!![]",
+      "new_ascii": "true",
+      "boolean_before": true,
+      "boolean_after": true
+    },
+    {
+      "variable": "_0x1d127d",
+      "role_vi": "Xử lý nhiệm vụ thợ câu",
+      "offset_decimal": 151450,
+      "offset_hex": "0x24F9A",
+      "old_hex": "21 5B 5D 20",
+      "new_hex": "74 72 75 65",
+      "old_ascii": "![] ",
+      "new_ascii": "true",
+      "boolean_before": false,
+      "boolean_after": true
+    }
+  ],
+  "other_bytes_unchanged": true,
+  "purchase_flag_0x2f6780_unchanged_false": true,
+  "scope": "Initial values only; zoneoff/fastoff/questoff can still turn features off.",
+  "runtime_tested": false
+}

@@ -1,0 +1,25 @@
+{
+  "source_sha256": "94ac3746980ad99aeb70c4d3be26c4c42538a230fab369ec07daa77a0926a2d7",
+  "output_sha256": "52702476494ed19a6cbf1b4d57fceb45ad576e40d11be9090fd490e4ecac4031",
+  "bytes": 4486288,
+  "method": "Lcom/TeaM/Avatar/MainActivity;->launchUnityGame(Z)V",
+  "code_item_offset_hex": "0x29e0e0",
+  "instruction_offset_hex": "0x29e10e",
+  "changed_instruction_byte_offset_hex": "0x29e10f",
+  "old_instruction_hex": "12 14",
+  "new_instruction_hex": "12 04",
+  "before": "const/4 v4, 1",
+  "after": "const/4 v4, 0",
+  "effect": "Free path writes IS_TRIAL=false; its branch selection and startUnityActivity call are unchanged.",
+  "source_sha1_valid": false,
+  "source_adler32_valid": false,
+  "output_sha1_valid": true,
+  "output_adler32_valid": true,
+  "changed_bytes": 24,
+  "allowed_change_regions": [
+    "0x8..0x1f: DEX integrity header",
+    "0x29e10f"
+  ],
+  "licensed_path_api_unchanged": true,
+  "runtime_tested": false
+}

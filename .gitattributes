@@ -1,0 +1,14 @@
+# Preserve byte-exact Frida inputs and forensic snapshots across checkouts.
+libbot.js.so -text
+analysis/libbot/avatar.bundle.original.js -text whitespace=-blank-at-eol
+analysis/libbot/avatar.js.map -text
+analysis/libbot/patched/libbot.js.so -text whitespace=-blank-at-eol
+analysis/libbot/strings.raw.txt -text whitespace=-blank-at-eol
+
+# CSV exports may use CRLF record endings; keep their original bytes.
+analysis/libbot/*.csv -text whitespace=cr-at-eol
+
+# Latest trial/local-gate artifacts also require byte-exact checkout.
+classes3.dex -text
+analysis/libbot/unrestricted/classes3.dex -text
+analysis/libbot/unrestricted/libbot.js.so -text whitespace=-blank-at-eol

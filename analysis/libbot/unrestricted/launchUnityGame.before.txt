@@ -1,0 +1,26 @@
+Lcom/TeaM/Avatar/MainActivity;->launchUnityGame(Z)V
+0000 const-string             v0, "AutoAppPrefs"
+0004 const/4                  v1, 0
+0006 invoke-virtual           v3, v0, v1, Lcom/TeaM/Avatar/MainActivity;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+000c move-result-object       v0
+000e invoke-interface         v0, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+0014 move-result-object       v0
+0016 const-string             v2, "IS_TRIAL"
+001a if-eqz                   v4, +00eh
+001e const/4                  v4, 1
+0020 invoke-interface         v0, v2, v4, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+0026 move-result-object       v4
+0028 invoke-interface         v4, Landroid/content/SharedPreferences$Editor;->apply()V
+002e invoke-direct            v3, Lcom/TeaM/Avatar/MainActivity;->startUnityActivity()V
+0034 goto                     +1ah
+0036 invoke-interface         v0, v2, v1, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+003c move-result-object       v4
+003e invoke-interface         v4, Landroid/content/SharedPreferences$Editor;->apply()V
+0044 new-instance             v4, Lcom/TeaM/Avatar/MainActivity$$ExternalSyntheticLambda2;
+0048 invoke-direct            v4, v3, Lcom/TeaM/Avatar/MainActivity$$ExternalSyntheticLambda2;-><init>(Lcom/TeaM/Avatar/MainActivity;)V
+004e invoke-virtual           v3, v4, Lcom/TeaM/Avatar/MainActivity;->runOnUiThread(Ljava/lang/Runnable;)V
+0054 iget-object              v4, v3, Lcom/TeaM/Avatar/MainActivity;->currentKey Ljava/lang/String;
+0058 new-instance             v0, Lcom/TeaM/Avatar/MainActivity$$ExternalSyntheticLambda3;
+005c invoke-direct            v0, v3, Lcom/TeaM/Avatar/MainActivity$$ExternalSyntheticLambda3;-><init>(Lcom/TeaM/Avatar/MainActivity;)V
+0062 invoke-direct            v3, v4, v0, Lcom/TeaM/Avatar/MainActivity;->checkLicenseApi(Ljava/lang/String; Lcom/TeaM/Avatar/MainActivity$ApiCallback;)V
+0068 return-void
