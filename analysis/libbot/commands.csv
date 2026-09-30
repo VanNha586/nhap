@@ -1,0 +1,15 @@
+pattern_display,recognizer_type,recognizer_value,inferred_behavior,condition,response_template,libbot_line
+farmktNok,regex,/^farmkt(\d+)ok$/,Đặt mốc chăm farm kế tiếp,N >= 15; thực hiện còn phụ thuộc chu kỳ farm đang bật,"OK sếp, lần chăm farm kế tiếp sau {N} phút",3674
+farmNok,regex,/^farm(\d+)ok$/,Đặt khoảng chăm farm lặp lại theo phút,N >= 15,"OK sếp, chăm farm sau {N} phút",3690
+gieohatNok,regex,/^gieohat(\d+)ok$/,Đổi hạt theo thứ tự trong bảng lựa chọn,1 <= N <= 25; không phải ID hạt trực tiếp,"OK sếp, đã đổi hạt giống thứ tự {N}",3704
+autofarmIDok,regex,/^autofarm(\d+)ok$/,Chăm farm rồi đi câu ở map đích,"Map hiện tại = 25; ID thuộc 14,15,16,27","OK sếp, bắt đầu chăm farm rồi đi câu cá.",3718
+zoneon,includes,zoneon,Bật tự động chuyển khu,Khớp chuỗi con sau lowercase/trim,Đã bật tự động chuyển khu thưa sếp.,3746
+zoneoff,includes,zoneoff,Tắt tự động chuyển khu,Khớp chuỗi con sau lowercase/trim,Đã tắt tự động chuyển khu thưa sếp.,3755
+faston,includes,faston,Bật câu nhanh,Khớp chuỗi con sau lowercase/trim,Đã bật auto siêu tốc thưa sếp.,3764
+fastoff,includes,fastoff,Tắt câu nhanh,Khớp chuỗi con sau lowercase/trim,Đã tắt siêu tốc thưa sếp.,3774
+queston,includes,queston,Bật xử lý nhiệm vụ thợ câu,Khớp chuỗi con sau lowercase/trim,Đã bật hoàn thành nhiệm vụ.,3783
+questoff,includes,questoff,Tắt xử lý nhiệm vụ thợ câu,Khớp chuỗi con sau lowercase/trim,Đã tắt hoàn thành nhiệm vụ.,3792
+npcoff,includes,npcoff,Đặt cờ tìm NPC về 0,Khớp chuỗi con sau lowercase/trim,Đã tắt tìm npc.,3802
+npcIDok,regex,/^npc(\d+)ok$/,Bắt đầu lộ trình tìm NPC Chú Cuội,Đúng lịch sự kiện và GIFT_LIST chưa ghi người chơi; ID được gán map đích,Giờ này làm gì có chú cuội hả fen / Bạn đã nhận đủ quà rồi.,3812
+cookIDok,regex,/^cook(\d+)ok$/,Đổi món nấu,Báo lỗi ngoài 1..35 nhưng thiếu return nên ID vẫn được gán,Đã đổi món ăn {ID} thưa sếp. / Mã món ăn không hợp lệ.,3831
+cookNoff,regex,/^cook(\d+)off$/,Tắt nấu hoặc giới hạn số lần bắt đầu nấu,N = 0: tắt; N > 0: dừng sau N lần được bộ đếm ghi nhận,Đã tắt tự động nấu ăn. / Tự động nấu ăn sẽ tắt sau {N} lần.,3849

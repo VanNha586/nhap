@@ -1,0 +1,995 @@
+{
+  "input": "libbot.js.so",
+  "sha256": "117bc87d9d7a92fcb4ce45f969fd14933defea0120fe28f172598896c848b064",
+  "bytes": 356749,
+  "entries": [
+    {
+      "size": 225474,
+      "name": "/avatar.js"
+    },
+    {
+      "size": 131221,
+      "name": "/avatar.js.map"
+    }
+  ],
+  "sourceMap": {
+    "version": 3,
+    "sources": [
+      "frida-builtins:/node-globals.js",
+      "node_modules/frida-il2cpp-bridge/dist/application.ts",
+      "node_modules/frida-il2cpp-bridge/dist/boxed.ts",
+      "node_modules/frida-il2cpp-bridge/dist/config.ts",
+      "node_modules/frida-il2cpp-bridge/dist/dump.ts",
+      "node_modules/frida-il2cpp-bridge/dist/exception-listener.ts",
+      "node_modules/frida-il2cpp-bridge/dist/exports.ts",
+      "node_modules/frida-il2cpp-bridge/dist/filters.ts",
+      "node_modules/frida-il2cpp-bridge/dist/gc.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/android.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/console.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/decorate.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/getter.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/hash.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/lazy.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/native-struct.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/object.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/offset-of.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/read-native-iterator.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/read-native-list.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/recycle.ts",
+      "node_modules/frida-il2cpp-bridge/dist/utils/unity-version.ts",
+      "node_modules/frida-il2cpp-bridge/dist/memory.ts",
+      "node_modules/frida-il2cpp-bridge/dist/module.ts",
+      "node_modules/frida-il2cpp-bridge/dist/nullable.ts",
+      "node_modules/frida-il2cpp-bridge/dist/perform.ts",
+      "node_modules/frida-il2cpp-bridge/dist/tracer.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/array.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/assembly.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/class.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/delegate.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/domain.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/field.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/gc-handle.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/image.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/memory-snapshot.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/method.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/object.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/parameter.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/pointer.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/reference.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/string.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/thread.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/type.ts",
+      "node_modules/frida-il2cpp-bridge/dist/structs/value-type.ts",
+      "node_modules/frida-il2cpp-bridge/dist/index.ts",
+      "avatar.js"
+    ],
+    "hasSourcesContent": false
+  },
+  "decoder": {
+    "offset": 374,
+    "target": 985857,
+    "rotations": 122,
+    "tableSize": 269,
+    "aliases": 106,
+    "replacedCalls": 959,
+    "usedTableEntries": 250,
+    "unusedTableEntries": 19
+  },
+  "originalCounts": {
+    "bundle": 717,
+    "botIncludingWrapperAndObfuscation": 149,
+    "bridgeAndBundler": 568,
+    "obfuscation": 4
+  },
+  "transformedCounts": {
+    "bundle": 713,
+    "botIncludingWrapper": 145,
+    "botExcludingWrapper": 144,
+    "botNamedHelpers": 31,
+    "bridgeAndBundler": 568
+  },
+  "strings": {
+    "uniqueBundle": 763,
+    "uniqueBot": 320,
+    "occurrencesBundle": 2414,
+    "occurrencesBot": 1510,
+    "note": "Unique decoded literal/template values, including bracket-property keys before dot formatting. Source-map metadata and removed obfuscation table excluded."
+  },
+  "classes": {
+    "_0x22042d": "FishingScr",
+    "_0x20ebd9": "Canvas",
+    "_0xdfcea2": "GameMidlet",
+    "_0x5a5c11": "LoadMap",
+    "_0x27324f": "MapScr",
+    "_0x2d2dec": "MsgDlg",
+    "_0x240da0": "AvatarService",
+    "_0x13a562": "GlobalService",
+    "_0x4a7efc": "FarmScr",
+    "_0x32cfe0": "FarmService",
+    "_0x1ecc2b": "ChatTextField/IActionChat2",
+    "_0x193843": "TField",
+    "_0x2a5ff1": "ChatTextField",
+    "_0x211ffe": "MiniMap",
+    "_0x2bcf23": "FarmData",
+    "_0x21b8eb": "ParkService",
+    "_0x2077c0": "ParkListSrc",
+    "_0x146bb4": "AvMain",
+    "_0x492cda": "AvCamera",
+    "_0x2b6250": "LoginScr",
+    "_0x34c6fb": "CustomTab",
+    "_0x582a28": "CookingScr",
+    "_0x571b3c": "UnityEngine.Application"
+  },
+  "hooks": [
+    {
+      "type": "attach",
+      "target": "TField.setText",
+      "inputLine": 3667
+    },
+    {
+      "type": "attach",
+      "target": "Canvas.addFlyText",
+      "inputLine": 3914
+    },
+    {
+      "type": "attach",
+      "target": "CustomTab.addd",
+      "inputLine": 3921
+    },
+    {
+      "type": "attach",
+      "target": "LoginScr.switchToMe",
+      "inputLine": 3932
+    },
+    {
+      "type": "attach",
+      "target": "ParkListSrc.switchToMe",
+      "inputLine": 3938
+    },
+    {
+      "type": "attach",
+      "target": "LoadMap.update",
+      "inputLine": 4117
+    },
+    {
+      "type": "attach",
+      "target": "MapScr.onJoinPark",
+      "inputLine": 4138
+    },
+    {
+      "type": "attach",
+      "target": "LoadMap.addPopup",
+      "inputLine": 4200
+    },
+    {
+      "type": "attach",
+      "target": "Canvas.startOKDlg",
+      "inputLine": 4203
+    },
+    {
+      "type": "attach",
+      "target": "MsgDlg.setPosButton",
+      "inputLine": 4232
+    },
+    {
+      "type": "attach",
+      "target": "MapScr.joinCitymap",
+      "inputLine": 4318
+    },
+    {
+      "type": "attach",
+      "target": "CookingScr.switchToMe",
+      "inputLine": 4375
+    },
+    {
+      "type": "attach",
+      "target": "FarmScr.resizeMap",
+      "inputLine": 4474
+    },
+    {
+      "type": "attach",
+      "target": "FishingScr.onStartFishing",
+      "inputLine": 4484
+    },
+    {
+      "type": "attach",
+      "target": "FishingScr.doClose",
+      "inputLine": 4487
+    },
+    {
+      "type": "attach",
+      "target": "FishingScr.update",
+      "inputLine": 4489
+    },
+    {
+      "type": "attach",
+      "target": "FishingScr.onCaCanCau",
+      "inputLine": 4569
+    },
+    {
+      "type": "attach",
+      "target": "FishingScr.onFinish",
+      "inputLine": 4609
+    }
+  ],
+  "prefKeys": [
+    "GIFT_LIST",
+    "SEED_ID",
+    "FOOD_ID",
+    "FARM_TIME",
+    "LICENSE_KEY",
+    "STATUS",
+    "USERNAME",
+    "BLACKLISTED_USERNAMES"
+  ],
+  "referencedGameMethods": {
+    "uniqueNames": 46,
+    "staticCalls": 123,
+    "names": [
+      "gI",
+      "set_runInBackground",
+      "pointerPressed",
+      "pointerReleased",
+      "doMenuOption",
+      "close",
+      "perform",
+      "setText",
+      "size",
+      "elementAt",
+      "addFlyText",
+      "addd",
+      "switchToMe",
+      ".ctor",
+      "setSelected",
+      "showTF",
+      "doBuyItem",
+      "getTypeMap",
+      "update",
+      "doJoin",
+      "onJoinPark",
+      "addPopup",
+      "startOKDlg",
+      "endDlg",
+      "setPosButton",
+      "getHandler",
+      "commandActionPointer",
+      "doJoinPark",
+      "doExit",
+      "joinCitymap",
+      "doHarvestCook",
+      "doCooking",
+      "doPlantSeed",
+      "setBonPhan",
+      "doHervest",
+      "doUsingItem",
+      "getAnimalByIndex",
+      "doHarvestAnimal",
+      "requestTakeCareAnimal",
+      "doSellAnimal",
+      "resizeMap",
+      "onStartFishing",
+      "doClose",
+      "setIndex",
+      "onCaCanCau",
+      "onFinish"
+    ]
+  },
+  "botRegexes": [
+    {
+      "value": "/&quot;/g",
+      "group": "bot",
+      "inputLine": 3370,
+      "function": "F571"
+    },
+    {
+      "value": "/-\\s*(?:fish|câu)\\s+(\\d+)\\s+(.*?)\\s*-\\s*(.+)$/i",
+      "group": "bot",
+      "inputLine": 3399,
+      "function": "F574"
+    },
+    {
+      "value": "/(\\d+)\\s*\\/\\s*(\\d+)/",
+      "group": "bot",
+      "inputLine": 3434,
+      "function": "F578"
+    },
+    {
+      "value": "/\\D/g",
+      "group": "bot",
+      "inputLine": 3518,
+      "function": "F586"
+    },
+    {
+      "value": "/^farmkt(\\d+)ok$/",
+      "group": "bot",
+      "inputLine": 3674,
+      "function": "F601"
+    },
+    {
+      "value": "/^farm(\\d+)ok$/",
+      "group": "bot",
+      "inputLine": 3690,
+      "function": "F601"
+    },
+    {
+      "value": "/^gieohat(\\d+)ok$/",
+      "group": "bot",
+      "inputLine": 3704,
+      "function": "F601"
+    },
+    {
+      "value": "/^autofarm(\\d+)ok$/",
+      "group": "bot",
+      "inputLine": 3718,
+      "function": "F601"
+    },
+    {
+      "value": "/^npc(\\d+)ok$/",
+      "group": "bot",
+      "inputLine": 3812,
+      "function": "F601"
+    },
+    {
+      "value": "/^cook(\\d+)ok$/",
+      "group": "bot",
+      "inputLine": 3831,
+      "function": "F601"
+    },
+    {
+      "value": "/^cook(\\d+)off$/",
+      "group": "bot",
+      "inputLine": 3849,
+      "function": "F601"
+    }
+  ],
+  "namedHelpers": [
+    {
+      "id": "F571",
+      "group": "bot",
+      "name": "_0x74df60",
+      "kind": "FunctionDeclaration",
+      "context": "setTimeout callback",
+      "inputLineStart": 3362,
+      "inputLineEnd": 3380,
+      "strings": [
+        "LICENSE_KEY",
+        "/data/data/com.TeaM.Avatar/shared_prefs/AutoAppPrefs.xml",
+        "r",
+        "readText",
+        "close",
+        "match",
+        "<string name=\"",
+        "\">([^<]+)</string>",
+        "replace",
+        "\"",
+        "<int name=\"",
+        "\" value=\"([^\"]+)\"",
+        "<boolean name=\"",
+        "true"
+      ],
+      "regexes": [
+        "/&quot;/g"
+      ]
+    },
+    {
+      "id": "F572",
+      "group": "bot",
+      "name": "_0x38515e",
+      "kind": "FunctionDeclaration",
+      "context": "setTimeout callback",
+      "inputLineStart": 3381,
+      "inputLineEnd": 3394,
+      "strings": [
+        "/data/data/com.TeaM.Avatar/shared_prefs/AutoAppPrefs.xml",
+        "r",
+        "readText",
+        "close",
+        "<string name=\"",
+        "\">([^<]*)</string>",
+        "test",
+        "replace",
+        "\">",
+        "</string>",
+        "</map>",
+        "    <string name=\"",
+        "</string>\n</map>",
+        "w",
+        "write",
+        "flush"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F574",
+      "group": "bot",
+      "name": "_0x385fac",
+      "kind": "FunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3398,
+      "inputLineEnd": 3420,
+      "strings": [
+        "split",
+        "\n",
+        "trim",
+        "toLowerCase",
+        "startsWith",
+        "reward",
+        "phần thưởng",
+        "match",
+        "includes",
+        "/",
+        "name",
+        "id",
+        "idMap",
+        "push",
+        "idFish",
+        "currentNum",
+        "requestNum",
+        "status"
+      ],
+      "regexes": [
+        "/-\\s*(?:fish|câu)\\s+(\\d+)\\s+(.*?)\\s*-\\s*(.+)$/i"
+      ]
+    },
+    {
+      "id": "F575",
+      "group": "bot",
+      "name": "_0x4314e6",
+      "kind": "FunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3420,
+      "inputLineEnd": 3423,
+      "strings": [
+        "field",
+        "w",
+        "value",
+        "h",
+        "round",
+        "x",
+        "y"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F576",
+      "group": "bot",
+      "name": "_0x2bf4ba",
+      "kind": "FunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3423,
+      "inputLineEnd": 3426,
+      "strings": [
+        "method",
+        "gI",
+        "invoke",
+        "Object",
+        "field",
+        "xCam",
+        "value",
+        "yCam",
+        "zoom",
+        "transTab",
+        "x",
+        "trunc",
+        "y"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F577",
+      "group": "bot",
+      "name": "_0x17ca5e",
+      "kind": "FunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3426,
+      "inputLineEnd": 3429,
+      "strings": [
+        "getFullYear",
+        "getMonth",
+        "getDate",
+        "getHours"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F578",
+      "group": "bot",
+      "name": "_0x449de4",
+      "kind": "FunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3429,
+      "inputLineEnd": 3441,
+      "strings": [
+        "toLowerCase",
+        "includes",
+        "1 hộp bánh",
+        "1 mooncake box",
+        "match"
+      ],
+      "regexes": [
+        "/(\\d+)\\s*\\/\\s*(\\d+)/"
+      ]
+    },
+    {
+      "id": "F579",
+      "group": "bot",
+      "name": "_0x3c4d04",
+      "kind": "FunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3441,
+      "inputLineEnd": 3454,
+      "strings": [
+        "getDate",
+        "/",
+        "getMonth",
+        "getFullYear",
+        "GIFT_LIST",
+        "parse",
+        "date",
+        "idPlayers",
+        "isArray",
+        "includes"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F580",
+      "group": "bot",
+      "name": "_0x55bf4a",
+      "kind": "FunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3454,
+      "inputLineEnd": 3465,
+      "strings": [
+        "getDate",
+        "/",
+        "getMonth",
+        "getFullYear",
+        "GIFT_LIST",
+        "date",
+        "idPlayers",
+        "parse",
+        "includes",
+        "push",
+        "stringify"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F581",
+      "group": "bot",
+      "name": "_0x2e1e09",
+      "kind": "FunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3465,
+      "inputLineEnd": 3467,
+      "strings": [],
+      "regexes": []
+    },
+    {
+      "id": "F582",
+      "group": "bot",
+      "name": "_0x19bea8",
+      "kind": "FunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3467,
+      "inputLineEnd": 3499,
+      "strings": [],
+      "regexes": []
+    },
+    {
+      "id": "F588",
+      "group": "bot",
+      "name": "_0x59afe4",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3534,
+      "inputLineEnd": 3552,
+      "strings": [
+        "field",
+        "avatar",
+        "value",
+        "isNull",
+        "IDDB",
+        "String",
+        "name",
+        "toString",
+        "USERNAME",
+        "BLACKLISTED_USERNAMES",
+        "parse",
+        "some"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F590",
+      "group": "bot",
+      "name": "_0x35fda9",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3553,
+      "inputLineEnd": 3566,
+      "strings": [
+        "field",
+        "instance",
+        "value",
+        "Object",
+        "method",
+        "pointerPressed",
+        "invoke",
+        "x",
+        "y"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F593",
+      "group": "bot",
+      "name": "_0x476835",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3567,
+      "inputLineEnd": 3570,
+      "strings": [
+        "x",
+        "y",
+        "now"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F594",
+      "group": "bot",
+      "name": "_0x5bb368",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3571,
+      "inputLineEnd": 3582,
+      "strings": [
+        "length",
+        "status",
+        "idFish",
+        "currentNum",
+        "requestNum"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F595",
+      "group": "bot",
+      "name": "_0x4f2777",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3582,
+      "inputLineEnd": 3636,
+      "strings": [
+        "method",
+        "gI",
+        "invoke",
+        "Object",
+        "doMenuOption"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F598",
+      "group": "bot",
+      "name": "_0x5834a4",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3636,
+      "inputLineEnd": 3664,
+      "strings": [
+        "length",
+        "x",
+        "y",
+        "field",
+        "instance",
+        "value",
+        "isNull",
+        "method",
+        "pointerPressed",
+        "invoke",
+        "pointerReleased"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F634",
+      "group": "bot",
+      "name": "_0x21db8b",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3882,
+      "inputLineEnd": 3895,
+      "strings": [
+        "field",
+        "playerLists",
+        "value",
+        "Object",
+        "method",
+        "size",
+        "invoke",
+        "elementAt",
+        "name",
+        "toString",
+        "trim",
+        "toLocaleLowerCase",
+        "includes",
+        "chú cuội",
+        "uncle cuoi"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F635",
+      "group": "bot",
+      "name": "_0x108c70",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3897,
+      "inputLineEnd": 3913,
+      "strings": [],
+      "regexes": []
+    },
+    {
+      "id": "F642",
+      "group": "bot",
+      "name": "_0x57ee7a",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3955,
+      "inputLineEnd": 3980,
+      "strings": [
+        "field",
+        "instance",
+        "value",
+        "isNull",
+        "Object",
+        "tfChat",
+        "method",
+        "showTF",
+        "invoke",
+        "string",
+        "setText",
+        "alloc",
+        ".ctor",
+        "perform"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F643",
+      "group": "bot",
+      "name": "_0x2763b5",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 3980,
+      "inputLineEnd": 4012,
+      "strings": [],
+      "regexes": []
+    },
+    {
+      "id": "F648",
+      "group": "bot",
+      "name": "_0x1df3df",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 4012,
+      "inputLineEnd": 4035,
+      "strings": [
+        "isNull",
+        "field",
+        "wMap",
+        "value",
+        "Hmap",
+        "method",
+        "getTypeMap",
+        "invoke",
+        "push",
+        "x",
+        "y"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F649",
+      "group": "bot",
+      "name": "_0x234e45",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 4035,
+      "inputLineEnd": 4116,
+      "strings": [
+        "length",
+        "no fishing spot",
+        "all seats failed",
+        "floor",
+        "random",
+        "min",
+        "invalid seat index",
+        "perform",
+        "outer error"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F650",
+      "group": "bot",
+      "name": "_0x7669c9",
+      "kind": "ArrowFunctionExpression",
+      "context": "_0x234e45",
+      "inputLineStart": 4039,
+      "inputLineEnd": 4042,
+      "strings": [
+        ""
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F679",
+      "group": "bot",
+      "name": "_0x28d3f9",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 4286,
+      "inputLineEnd": 4309,
+      "strings": [
+        "method",
+        "gI",
+        "invoke",
+        "Object",
+        "close",
+        "getHandler",
+        "commandActionPointer",
+        "doJoinPark"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F680",
+      "group": "bot",
+      "name": "_0x500834",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 4309,
+      "inputLineEnd": 4317,
+      "strings": [
+        "Object",
+        "field",
+        "instance",
+        "value",
+        "method",
+        "doExit",
+        "invoke",
+        "now"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F683",
+      "group": "bot",
+      "name": "_0xec5551",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 4345,
+      "inputLineEnd": 4359,
+      "strings": [
+        "Object",
+        "field",
+        "listItemFarm",
+        "value",
+        "method",
+        "size",
+        "invoke",
+        "instance",
+        "doBuyItem",
+        "elementAt",
+        "push",
+        "id",
+        "ID",
+        "number",
+        "map"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F686",
+      "group": "bot",
+      "name": "_0x403d54",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 4361,
+      "inputLineEnd": 4374,
+      "strings": [
+        "x",
+        "y",
+        "field",
+        "instance",
+        "value",
+        "isNull",
+        "method",
+        "pointerPressed",
+        "invoke",
+        "pointerReleased"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F690",
+      "group": "bot",
+      "name": "_0x18ddcd",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 4401,
+      "inputLineEnd": 4422,
+      "strings": [
+        "perform"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F692",
+      "group": "bot",
+      "name": "_0x32ccbf",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 4407,
+      "inputLineEnd": 4419,
+      "strings": [
+        "length",
+        "perform"
+      ],
+      "regexes": []
+    },
+    {
+      "id": "F694",
+      "group": "bot",
+      "name": "_0xfcca0f",
+      "kind": "ArrowFunctionExpression",
+      "context": "Il2Cpp[\"perform\"] callback",
+      "inputLineStart": 4422,
+      "inputLineEnd": 4473,
+      "strings": [
+        "Object",
+        "field",
+        "cell",
+        "value",
+        "method",
+        "size",
+        "invoke",
+        "instance",
+        "idFarm",
+        "elementAt",
+        "statusTree",
+        "idTree",
+        "isWorm",
+        "setBonPhan",
+        "isGrass",
+        "doHervest",
+        "push",
+        "doUsingItem",
+        "doPlantSeed",
+        "gI",
+        "animalLists",
+        "listAnimalInfo",
+        "species",
+        "diedTime",
+        "priceProduct",
+        "harvestTime",
+        "getAnimalByIndex",
+        "isNull",
+        "bornTime",
+        "IDDB",
+        "doHarvestAnimal",
+        "requestTakeCareAnimal",
+        "findIndex",
+        "doSellAnimal",
+        "pointerPressed",
+        "pointerReleased",
+        "length"
+      ],
+      "regexes": []
+    }
+  ]
+}

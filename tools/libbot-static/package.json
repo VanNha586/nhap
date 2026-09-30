@@ -1,0 +1,17 @@
+{
+  "name": "libbot-static-analysis",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static AST-only unpacking and string recovery for the checked-in libbot.js.so",
+  "scripts": {
+    "analyze": "node analyze.cjs ../../libbot.js.so ../../analysis/libbot",
+    "test": "node test.cjs",
+    "test:patch": "node test-patch.cjs"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.29.0",
+    "@babel/parser": "^7.29.0",
+    "@babel/traverse": "^7.29.0",
+    "@babel/types": "^7.29.0"
+  }
+}
