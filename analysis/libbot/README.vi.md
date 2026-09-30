@@ -241,6 +241,8 @@ npm test --prefix tools/libbot-static
 
 ## 8. Các tệp kết quả
 
+**Bản mới nhất theo yêu cầu sửa cả DEX và điều kiện VIP cục bộ:** [unrestricted/README.vi.md](unrestricted/README.vi.md), kèm [gói hai tệp đã sửa](unrestricted/trial-false-local-gates.zip). Tệp gốc và kết quả phân tích gốc bên dưới vẫn giữ nguyên.
+
 **Bản sửa giá trị khởi tạo theo yêu cầu tiếp theo:** xem [patched/README.vi.md](patched/README.vi.md) và [patched/libbot.js.so](patched/libbot.js.so). Các kết quả phân tích trong bảng bên dưới vẫn ứng với **tệp gốc**, không phải bản vá.
 
 | Tệp | Nội dung |

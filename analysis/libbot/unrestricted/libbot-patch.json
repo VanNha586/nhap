@@ -1,0 +1,44 @@
+{
+  "source_sha256": "117bc87d9d7a92fcb4ce45f969fd14933defea0120fe28f172598896c848b064",
+  "output_sha256": "ff19dbd0fd0c668d77082eeec852daa95e38ad21062543c617151a98e5f0bc45",
+  "bytes": 356749,
+  "original_js_bytes": 225474,
+  "rewritten_js_bytes": 225474,
+  "preserved_bridge_prefix_bytes": 137833,
+  "removed_scan_statements": [
+    {
+      "type": "IfStatement",
+      "original_bundle_line": 3515
+    },
+    {
+      "type": "VariableDeclaration",
+      "original_bundle_line": 3540
+    },
+    {
+      "type": "TryStatement",
+      "original_bundle_line": 3541
+    },
+    {
+      "type": "VariableDeclaration",
+      "original_bundle_line": 3546
+    },
+    {
+      "type": "ExpressionStatement",
+      "original_bundle_line": 3547
+    }
+  ],
+  "gate_reads_removed": 16,
+  "branches_simplified": 15,
+  "changed_bytes": 77884,
+  "default_flags": {
+    "_0x29a5e9": false,
+    "_0x2f6780": false,
+    "_0x335d3b": true,
+    "_0x535564": true,
+    "_0x1d127d": true
+  },
+  "vip_conditions_removed_locally": true,
+  "normal_bait_ticket_purchases_preserved": true,
+  "source_map_note": "Original map bytes retained; mappings for the regenerated bot module are not accurate. Bridge prefix is unchanged.",
+  "runtime_tested": false
+}

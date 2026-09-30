@@ -6,7 +6,9 @@
   "scripts": {
     "analyze": "node analyze.cjs ../../libbot.js.so ../../analysis/libbot",
     "test": "node test.cjs",
-    "test:patch": "node test-patch.cjs"
+    "test:patch": "node test-patch.cjs",
+    "build:unrestricted": "node build-unrestricted.cjs",
+    "test:unrestricted": "node test-unrestricted.cjs"
   },
   "dependencies": {
     "@babel/generator": "^7.29.0",

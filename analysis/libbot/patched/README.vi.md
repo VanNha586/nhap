@@ -1,5 +1,7 @@
 # Bản sửa các giá trị khởi tạo của bot
 
+**Đây là bản cũ chỉ đổi giá trị khởi tạo.** Yêu cầu mới sửa cả DEX/bỏ điều kiện VIP cục bộ nằm ở [../unrestricted/README.vi.md](../unrestricted/README.vi.md).
+
 Ngày tạo: **30/09/2026**. Đây là bản sao theo yêu cầu sửa hex; tệp gốc ở thư mục gốc repository **không bị ghi đè**.
 
 ## Tệp dùng để tải
